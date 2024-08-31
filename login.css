@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 575px;
+    margin-left: 350px;
+    margin-top: 40px;
+    height: auto;
+}
+.logos{
+    display: flex;
+}
+.logo1 img{
+    width: 100px;
+    margin-top: 15px;
+    
+}
+.logo2 img{
+    width: 75px;
+    margin-top: 15px;
+}
+.text1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-size: 30px;
+}
+.text2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-size: 30px;
+}
+.email{
+
+    margin-top: 20px;
+  
+
+}
+.email input[type="email"]{
+    width: 100%; /* Full width of the container */
+    padding: 10px 40px 10px 10px; /* Add padding to make space for the icon */
+    font-size: 16px; /* Font size of the input text */
+    border: 2px solid #000000; /* Border around the input */
+    border-radius: 20px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    border: 1px solid black;
+    text-decoration: none;
+
+}
+.firstlast{
+    display: flex;
+    margin-top: 20px;
+}
+.first input[type="text"]{
+    width: 100%; /* Full width of the container */
+    padding: 10px 40px 10px 10px; /* Add padding to make space for the icon */
+    font-size: 16px; /* Font size of the input text */
+    border: 2px solid #000000; /* Border around the input */
+    border-radius: 20px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    border: 1px solid black;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.last input[type="text"]{
+    width: 100%; /* Full width of the container */
+    padding: 10px 40px 10px 10px; /* Add padding to make space for the icon */
+    font-size: 16px; /* Font size of the input text */
+    border: 2px solid #000000; /* Border around the input */
+    border-radius: 20px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    border: 1px solid black;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+.password input[type="password"]{
+    width: 555px; /* Full width of the container */
+    padding: 10px 40px 10px 10px; /* Add padding to make space for the icon */
+    font-size: 16px; /* Font size of the input text */
+    border: 2px solid #000000; /* Border around the input */
+    border-radius: 20px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    border: 1px solid black;
+    text-decoration: none;
+   
+
+}
+.password{
+    display: flex;
+    margin-top: 20px;
+}
+.dob{
+    margin-top: 15px;
+    
+}
+.dob input[type="date"]{
+    width: 300px; /* Full width of the container */
+    padding: 10px 40px 10px 10px; /* Add padding to make space for the icon */
+    font-size: 16px; /* Font size of the input text */
+    border: 2px solid #000000; /* Border around the input */
+    border-radius: 20px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    border: 1px solid black;
+    text-decoration: none;
+   
+
+}
+.signup{
+    margin-top: 15px;
+    margin-left: 55px;
+    
+}
+
+
+.signup button {
+    width: 300px; /* Full width of the container */
+    padding: 10px 40px 10px 10px; /* Add padding to make space for the icon */
+    font-size: 16px; /* Font size of the button text */
+    border: 2px solid #000000; /* Border around the button */
+    border-radius: 20px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    background-color: transparent; /* Make background transparent */
+    cursor: pointer; /* Change cursor to pointer */
+    text-align: center; /* Center text inside button */
+    color: #000000; /* Text color */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Make button inline-block for better layout */
+}
+
+.signup button:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+}
+.hr{
+   margin-top: 25px;
+   margin-left: 80px; 
+}
+.hr a{
+color: #000000;
+font-weight: 500;
+}
+
