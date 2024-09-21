@@ -8,6 +8,14 @@
 
 
     <title>Nike/Jordan</title>
+    <style>
+        body {
+            transform: scale(1.25);
+            transform-origin: top left; /* Scale from the top left corner */
+            width: 80%; /* Adjust the width to fit the viewport */
+            overflow-x: hidden; /* Prevent horizontal overflow */
+        }
+    </style>
 </head>
 <body>
     <section class="top1">
@@ -349,6 +357,14 @@
     
 </section>
 <script src="app.js"></script>
+
+<script>
+    // Optional: Adjust scroll position after scaling
+    window.onload = function() {
+        window.scrollTo(0, 0); // Scroll to top after loading
+    };
+</script>
+
 
 </body>
 </html>
